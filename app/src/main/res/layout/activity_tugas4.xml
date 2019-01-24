@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="#2fa3b8"
+        android:padding="30dp"
+        android:text="Top \n\nLeft"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#2fa3b8"
+        android:padding="30dp"
+        android:text="Top \n\nRight"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#ff5b00"
+        android:padding="30dp"
+        android:text="Top \n\nMiddle"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/centerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#2fa3b8"
+        android:padding="30dp"
+        android:text="Center"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/centerTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:background="#ff5b00"
+        android:padding="30dp"
+        android:text="Left"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/satu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/centerTextView"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:background="#ff5b00"
+        android:padding="30dp"
+        android:text="Right"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/satu"
+        android:layout_marginTop="77dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="Button Of Screen"
+        android:textColor="#fff" />
+
+</RelativeLayout>

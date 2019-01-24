@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstLayout">
+
+    <TextView
+        android:id="@+id/tv_pertama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TUGAS LAYOUT"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:padding="20dp"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btn_pertama"
+        android:layout_below="@+id/tv_pertama"
+        android:layout_marginTop="20dp"
+        android:text="TUGAS PERTAMA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="TugasPertama"/>
+    <Button
+        android:id="@+id/btn_kedua"
+        android:layout_below="@+id/btn_pertama"
+        android:layout_marginTop="20dp"
+        android:text="TUGAS KEDUA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="TugasKedua"/>
+
+    <Button
+        android:id="@+id/btn_ketiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_kedua"
+        android:layout_marginTop="20dp"
+        android:onClick="TugasKetiga"
+        android:text="TugasKetiga" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_ketiga"
+        android:layout_marginTop="20dp"
+        android:onClick="TugasKeEmpat"
+        android:text="TugasKeempat" />
+
+
+
+</RelativeLayout>
